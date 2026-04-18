@@ -1,0 +1,4 @@
+evdev:input:b0011v0001p0001*
+ KEYBOARD_KEY_f7=search
+ KEYBOARD_KEY_74=calc
+ KEYBOARD_KEY_75=camera

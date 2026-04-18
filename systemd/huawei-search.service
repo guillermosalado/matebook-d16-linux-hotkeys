@@ -1,0 +1,10 @@
+[Unit]
+Description=Huawei Search Key Daemon
+After=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/<usuario>/.local/bin/huawei-search-daemon.py
+Restart=always
+
+[Install]
+WantedBy=graphical-session.target
